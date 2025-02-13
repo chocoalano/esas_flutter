@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "938219814194",
+    "project_id": "esasa-app",
+    "storage_bucket": "esasa-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938219814194:android:06162eec23d0581b836b2b",
+        "android_client_info": {
+          "package_name": "com.sas.esas_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVwJ4swOZYlv12o3sL1-2WoqXKiPDA-rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
