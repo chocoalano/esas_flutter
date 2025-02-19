@@ -1,0 +1,2 @@
+/home/ictsas/Documents/Flutter/esas_flutter/android/app/.cxx/Debug/yz372d1c/x86/CMakeFiles/edit_cache.dir
+/home/ictsas/Documents/Flutter/esas_flutter/android/app/.cxx/Debug/yz372d1c/x86/CMakeFiles/rebuild_cache.dir
