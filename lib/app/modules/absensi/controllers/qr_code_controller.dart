@@ -63,7 +63,7 @@ class QrCodeController extends GetxController {
         errorMessage.value = '';
         isScanning.value = false; // Hentikan sementara scanning
 
-        submit(qrData['type'], qrData['token']);
+        submit(qrData['type'], qrData['id'], qrData['token']);
       } catch (e) {
         errorMessage.value = "QR Code tidak valid (harus JSON)";
         Get.snackbar("Error", errorMessage.value,
@@ -73,8 +73,8 @@ class QrCodeController extends GetxController {
   }
 
   /// **Mengirim Data QR ke Server**
-  Future<void> submit(String type, String token) async {
-    final datapost = {'type': type, 'token': token};
+  Future<void> submit(String type, int id, String token) async {
+    final datapost = {'type': type, 'id': id, 'token': token};
     if (kDebugMode) {
       print("=======>>>>>>>>> datapost qr: $datapost");
     }
